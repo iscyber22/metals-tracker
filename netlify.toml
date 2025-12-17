@@ -1,0 +1,8 @@
+[build]
+  command = "echo 'Ready to deploy'"
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
